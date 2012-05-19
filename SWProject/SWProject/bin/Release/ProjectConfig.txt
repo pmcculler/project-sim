@@ -1,0 +1,30 @@
+﻿System
+Runs: 1000
+
+// Used by stock traders.
+Work Days Per Year: 252
+
+// Guessing 1 in 30 chance per year. So you'll go an average of 30 years between bereavements.
+Bereavement Chance Per Year: 0.033
+Bereavement Leave: 3
+
+// In 1997 it was 3.8 for salaried exempt.
+Sick Days Per Year: 4
+
+Vacation Days Per Year: 15
+Extra Holiday Days Per Year: 2
+
+// Guessing 1 in 25 chance per year. So you'll go an average of 25 years between family leaves.
+Family Chance Per Year: 0.04
+Family Leave: 20
+
+// Turnover: 4 years
+Quit Chance Per Year: 0.25
+Quit Leave: 30
+
+Project: Alpha
+Effort Estimation Error Model: Poisson
+Communications Overhead Model: Linear
+Communications Overhead Base: 1.0
+Workers: 5
+Units: 100000 
