@@ -1,17 +1,24 @@
 ﻿System
 Runs: 1000
 
+// note bug in program: if all workers get terminated, program never finishes
+// number of people working
+Workers: 5
+// units of work they must accomplish; nominally a work executes 100 per day
+Units: 100000
+
 // Used by stock traders.
 Work Days Per Year: 252
 
-// Guessing 1 in 30 chance per year. So you'll go an average of 30 years between bereavements.
-Bereavement Chance Per Year: 0.033
+// Guessing 1 in 20 chance per year. So you'll go an average of 20 years between bereavements.
+Bereavement Chance Per Year: 0.05
 Bereavement Leave: 3
 
-// In 1997 it was 3.8 for salaried exempt.
+// In 1997 it was an average of 3.8 taken for salaried exempt.
 Sick Days Per Year: 4
 
 Vacation Days Per Year: 15
+// as in floating holidays
 Extra Holiday Days Per Year: 2
 
 // Guessing 1 in 25 chance per year. So you'll go an average of 25 years between family leaves.
@@ -23,8 +30,11 @@ Quit Chance Per Year: 0.25
 Quit Leave: 30
 
 Project: Alpha
+
+// only models allowed now are None and Poisson. None means your estimations are totally perfect.
 Effort Estimation Error Model: Poisson
+// only model allowed now is Linear
 Communications Overhead Model: Linear
+
+// how strongly the increase in the number of workers decreases their overall effectiveness due to communication overhead. higher = more overhead.
 Communications Overhead Base: 1.0
-Workers: 5
-Units: 100000 

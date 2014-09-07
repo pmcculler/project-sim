@@ -1,0 +1,8 @@
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Release\SWProject.exe
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Release\SWProject.pdb
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Release\Project.dll
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Release\Project.pdb
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\obj\x86\Release\SWProject.exe
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\obj\x86\Release\SWProject.pdb
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\SWProject\SWProject\bin\Release\ProjectConfig.txt
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\SWProject\SWProject\obj\x86\Release\SWProject.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Debug\SWProject.exe
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Debug\SWProject.pdb
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Debug\Project.dll
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\bin\Debug\Project.pdb
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\obj\x86\Debug\SWProject.exe
+C:\Users\Patrick\documents\visual studio 2010\Projects\SWProject\SWProject\obj\x86\Debug\SWProject.pdb
+C:\Users\Patrick\Documents\Visual Studio 2010\Projects\SWProject\SWProject\bin\Debug\ProjectConfig.txt

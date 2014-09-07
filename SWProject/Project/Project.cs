@@ -38,11 +38,11 @@ namespace SWProject
         /// </summary>
         /// <param name="b"></param>
         /// <returns></returns>
-        public static double EstimationError(double i)
+        public static double EstimationError(double i, double fraction)
         {
             double poisson = Poisson(i);
             double diff = (poisson > i ? poisson - i : i - poisson);
-            diff /= 5.0;
+            diff /= fraction;
             return (poisson > i ? i - diff : i + diff);
         }
 
@@ -78,7 +78,7 @@ namespace SWProject
             {
                 case "Poisson":
                     {
-                        totalWorkUnits = (int)(ProjectMath.EstimationError((double)totalWorkUnits));
+                        totalWorkUnits = (int)(ProjectMath.EstimationError((double)totalWorkUnits, 5.0));
                         break;
                     }
                 case "None":
